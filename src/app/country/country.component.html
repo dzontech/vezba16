@@ -1,0 +1,12 @@
+<table class="table">
+    <tr>
+        <th>Name</th>
+        <th>Capital</th>
+        <th>Region</th>
+    </tr>
+    <tr *ngFor="let c of countries">
+        <td> <a routerLink="/countries/{{c.name}}">{{c.name}}</a> </td>
+        <td>{{c.capital}}</td>
+        <td>{{c.region}}</td>
+    </tr>
+</table>

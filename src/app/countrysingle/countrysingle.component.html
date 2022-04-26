@@ -1,0 +1,22 @@
+<table class="table">
+    <tr>
+        <td>Name</td>
+        <td>Capital</td>
+        <td>Region</td>
+        <td>Population</td>
+        <td>Area</td>
+        <td>Flag</td>
+        <td>Independent</td>
+    </tr>
+
+    <tr *ngFor="let c of country">
+       <td>{{c.name}}</td>
+       <td>{{c.capital}}</td>
+       <td>{{c.region}}</td>
+       <td>{{c.population}}</td>
+       <td>{{c.area}}</td>
+       <td>{{c.flag}}</td>
+       <td>{{c.independent}}</td> 
+    </tr>
+
+</table>
